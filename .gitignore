@@ -581,5 +581,9 @@ FodyWeavers.xsd
 # End of https://www.toptal.com/developers/gitignore/api/unity,rider,visualstudio,visualstudiocode,windows
 
 ######## Archivos mayores a 99MB (Limitación de Github)
+<<<<<<< HEAD
 ./.git/objects/pack/pack-4b9c4e092e6ea6cf1c68c14ee20b5c07b714fe19.pack
 ./Clicker/Library/PackageCache/com.unity.burst/.Runtime/libburst-llvm-16.dylib
+=======
+Clicker/Library/PackageCache/com.unity.burst/.Runtime/libburst-llvm-16.dylib
+>>>>>>> Clicker/main
