@@ -72,12 +72,12 @@
       "version": "17.0.3",
       "source": "builtin"
     },
-    "com.unity.test-framework@1.4.5": {
+    "com.unity.test-framework@1.4.6": {
       "name": "com.unity.test-framework",
       "resolvedPath": "C:\\Users\\Magus\\Desktop\\Repos\\Tens\\Clicker\\Library\\PackageCache\\com.unity.test-framework",
-      "fingerprint": "0a21eb82d95cd331643a1e0ce4e8e9a5f18954c8",
-      "editorCompatibility": "2019.4.0a10",
-      "version": "1.4.5",
+      "fingerprint": "5ac417e07314c8f6afba8109738c32b82d391e68",
+      "editorCompatibility": "2019.4.1f1",
+      "version": "1.4.6",
       "source": "registry"
     },
     "com.unity.timeline@1.8.7": {
