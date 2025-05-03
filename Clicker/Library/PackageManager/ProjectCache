@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638817673556385476
-    m_Hash: 474152614
+      ticks: 638818284048392537
+    m_Hash: 855090096
   m_LockFileStatus:
     m_FilePath: C:/Users/Magus/Desktop/Repos/Tens/Clicker/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638817673556444049
-    m_Hash: 961457911
+      ticks: 638818284048451124
+    m_Hash: 2162387259
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -814,6 +814,223 @@ m_ResolvedPackages:
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
+    minimumUnityVersion: 6000.0.0a1
+- packageId: com.unity.probuilder@6.0.5
+  testable: 0
+  isDirectDependency: 1
+  version: 6.0.5
+  source: 1
+  resolvedPath: C:\Users\Magus\Desktop\Repos\Tens\Clicker\Library\PackageCache\com.unity.probuilder
+  assetPath: Packages/com.unity.probuilder
+  name: com.unity.probuilder
+  displayName: ProBuilder
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: 
+  description: 'Build, edit, and texture custom geometry in Unity. Use ProBuilder
+    for in-scene level design, prototyping, collision meshes, all with on-the-fly
+    play-testing.
+
+
+    Advanced features include UV editing, vertex colors, parametric
+    shapes, and texture blending. With ProBuilder''s model export feature it''s easy
+    to tweak your levels in any external 3D modelling suite.'
+  errors: []
+  versions:
+    all:
+    - 3.0.0
+    - 3.0.1
+    - 3.0.2
+    - 3.0.3
+    - 3.0.6
+    - 3.0.8
+    - 3.0.9
+    - 3.10.1
+    - 4.0.2
+    - 4.0.3
+    - 4.0.4
+    - 4.0.5
+    - 4.1.0
+    - 4.1.2
+    - 4.2.1
+    - 4.2.2-preview.1
+    - 4.2.2-preview.2
+    - 4.2.3
+    - 4.2.4-preview.0
+    - 4.3.0-preview.0
+    - 4.3.0-preview.1
+    - 4.3.0-preview.2
+    - 4.3.0-preview.4
+    - 4.3.0-preview.6
+    - 4.3.0-preview.7
+    - 4.3.0-preview.8
+    - 4.3.0-preview.9
+    - 4.3.1
+    - 4.4.0-preview.1
+    - 4.4.0
+    - 4.5.0
+    - 4.5.2
+    - 5.0.0-pre.7
+    - 5.0.0-pre.10
+    - 5.0.1
+    - 5.0.3
+    - 5.0.4
+    - 5.0.6
+    - 5.0.7
+    - 5.1.0
+    - 5.1.1
+    - 5.2.0
+    - 5.2.2
+    - 5.2.3
+    - 5.2.4
+    - 6.0.1-pre.1
+    - 6.0.1-pre.2
+    - 6.0.1
+    - 6.0.2
+    - 6.0.3
+    - 6.0.4
+    - 6.0.5
+    compatible:
+    - 6.0.4
+    - 6.0.5
+    recommended: 6.0.5
+    deprecated: []
+  dependencies:
+  - name: com.unity.shadergraph
+    version: 17.0.3
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.settings-manager
+    version: 1.0.3
+  resolvedDependencies:
+  - name: com.unity.shadergraph
+    version: 17.0.3
+  - name: com.unity.render-pipelines.core
+    version: 17.0.3
+  - name: com.unity.burst
+    version: 1.8.18
+  - name: com.unity.mathematics
+    version: 1.3.2
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.ugui
+    version: 2.0.0
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.collections
+    version: 2.5.1
+  - name: com.unity.test-framework
+    version: 1.4.5
+  - name: com.unity.ext.nunit
+    version: 2.0.5
+  - name: com.unity.nuget.mono-cecil
+    version: 1.11.4
+  - name: com.unity.test-framework.performance
+    version: 3.0.3
+  - name: com.unity.modules.physics
+    version: 1.0.0
+  - name: com.unity.modules.terrain
+    version: 1.0.0
+  - name: com.unity.rendering.light-transport
+    version: 1.0.1
+  - name: com.unity.searcher
+    version: 4.9.2
+  - name: com.unity.settings-manager
+    version: 2.0.1
+  keywords:
+  - 3d
+  - model
+  - mesh
+  - modeling
+  - geometry
+  - shape
+  - cube
+  - blender
+  - max
+  - maya
+  - fbx
+  - obj
+  - level
+  - design
+  - block
+  - greybox
+  - graybox
+  - whitebox
+  - prototype
+  - probuilder
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 638780358106590000
+  documentationUrl: https://docs.unity3d.com/Packages/com.unity.probuilder@6.0/manual/index.html
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.probuilder.git
+    revision: 3efb5ffce15fb2092437e0cb5a15f3a5de69fb61
+    path: 
+  unityLifecycle:
+    version: 6.0.4
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: '{"changelog":"### Changes\n\n- Improved DrawShape tool performance
+    when you place the first vertex.\n\n### Fixed\n\n- Fixed a bug where undoing
+    a PolyShape creation then redoing it did not restore the PolyShape.\n- Fixed
+    a bug where you could progress to the Edit Height stage of the Polyshape creation
+    tool without forming a base polygon with at least three points.\n- Fixed a bug
+    where shapes created by pressing Enter or Space using the Polyshape creation
+    tool were not selectable or added to the scene hierarchy.\n- [PBLD-213] Fixed
+    a bug where selection changes made while the PolyShape creation tool was active
+    were being reverted.\n- [PBLD-192] Fixed a bug where vertices were not able to
+    snap on other vertices from the same mesh.\n- [PBLD-189] Fixed a bug where using
+    the auto-stitch functionality of the UV Editor would not work properly on MacOS.\n-
+    [PBLD-187] Fixed a bug where the object size was incorrect when using the DrawShape
+    tool on angled surfaces.\n- [PBLD-180] Fixed a bug in the Material Editor where
+    an exception was thrown because it attempted to retrieve `MenuItem` shortcuts
+    before the main menu was fully loaded.\n- [PBLD-210] Fixed a bug where Undo was
+    not working correctly with the Polyshape creation tool. \n- [PBLD-196] Fixed
+    a bug where the Polyshape creation tool was not working with an orthographic
+    camera.\n- [STO-3429] Fixed a bug where increment snapping was ignored when drawing
+    ProBuilder shapes.\n- [STO-3432] Fixed a bug where the Polyshape creation tool
+    was not placing the first point on a custom grids correctly.\n- [PBLD-183] Fixed
+    a bug where the **Extrude by** setting of the **Extrude Faces** action was always
+    set to **Individual Faces**.\n- [STO-3442] Fixed a bug where hover-highlighted
+    elements are not always selected.\n- [PBLD-208] Fixed an issue \"Apply Quick
+    Material\" shortcut would always be present in the Shortcut Helper Bar.\n- [PBLD-202]
+    Fixed an issue where creating ProBuilder shapes using the Hierarchy menu would
+    not result in procedurally editable `ProBuilderShape` meshes. \n- [PBLD-205]
+    Fixed a bug where the `Edit PolyShape` tool would revert previously merged PolyShape
+    objects.\n- [PBLD-199] Fixed a bug where an exception was thrown if you placed
+    two cut tool vertices on the same edge."}'
+  assetStore:
+    productId: 
+  fingerprint: b55f3ad2afd2f5505e0e532971da5bb5a17f128f
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 6.0.4
     minimumUnityVersion: 6000.0.0a1
 - packageId: com.unity.render-pipelines.universal@17.0.3
   testable: 0
@@ -4554,6 +4771,82 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
     minimumUnityVersion: 6000.0.0a1
+- packageId: com.unity.settings-manager@2.0.1
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.1
+  source: 1
+  resolvedPath: C:\Users\Magus\Desktop\Repos\Tens\Clicker\Library\PackageCache\com.unity.settings-manager
+  assetPath: Packages/com.unity.settings-manager
+  name: com.unity.settings-manager
+  displayName: Settings Manager
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: asset
+  description: A framework for making any serializable field a setting, complete
+    with a pre-built settings interface.
+  errors: []
+  versions:
+    all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
+    - 1.0.3
+    - 2.0.0
+    - 2.0.1
+    - 2.1.0
+    compatible:
+    - 2.0.1
+    - 2.1.0
+    recommended: 2.0.1
+    deprecated: []
+  dependencies: []
+  resolvedDependencies: []
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  entitlements:
+    licensingModel: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 637744099390000000
+  documentationUrl: 
+  hasRepository: 1
+  repository:
+    type: git
+    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    path: 
+  unityLifecycle:
+    version: 2.0.1
+    nextVersion: 
+    recommendedVersion: 
+    isDeprecated: 0
+    deprecationMessage: 
+  isDeprecated: 0
+  deprecationMessage: 
+  git:
+    hash: 
+    revision: 
+  upmReserved: 
+  assetStore:
+    productId: 
+  fingerprint: 56a930affa1e4462d3595b5c19a1c2a4bf2015d2
+  editorCompatibility:
+    compatibilityLevel: 0
+    minimumPackageVersion: 2.0.1
+    minimumUnityVersion: 2018.4.0a1
 - packageId: com.unity.searcher@4.9.2
   testable: 0
   isDirectDependency: 0
