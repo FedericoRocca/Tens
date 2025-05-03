@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
@@ -13,6 +14,19 @@ public class Menu : MonoBehaviour
     void Update()
     {
         
+    }
+
+    public void goinGame()
+    {
+        try
+        {
+            SceneManager.LoadScene("inGame");
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
     }
 
     public void quit()

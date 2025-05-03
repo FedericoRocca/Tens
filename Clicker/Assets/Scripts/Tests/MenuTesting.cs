@@ -11,8 +11,16 @@ public class MenuTesting
     {
         // Use the Assert class to test conditions
         Menu menu = new Menu();
-        Assert.DoesNotThrow(menu.quit);
+        Assert.DoesNotThrow(menu.quit, "Menu.Quit exception");
     }
+
+    [Test]
+    public void MonedaMenuTesting()
+    {
+        MonedaMenu monMenu = new MonedaMenu();
+        Assert.AreNotEqual(0, monMenu.rotationSpeed, "La velocidad de rotación no debería ser 0");
+    }
+    
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
     // `yield return null;` to skip a frame.
