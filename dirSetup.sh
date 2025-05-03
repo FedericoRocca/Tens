@@ -2,11 +2,11 @@
 
 echo "Creando estructura de carpetas en ./Assets..."
 
-mkdir -p Assets/_Project/Scripts/Managers
-mkdir -p Assets/_Project/Scripts/Player
-mkdir -p Assets/_Project/Scripts/UI
-mkdir -p Assets/_Project/Scenes
-mkdir -p Assets/_Project/Prefabs
+mkdir -p Assets/Scripts/Managers
+mkdir -p Assets/Scripts/Player
+mkdir -p Assets/Scripts/UI
+mkdir -p Assets/Scenes
+mkdir -p Assets/Prefabs
 
 mkdir -p Assets/Art/Materials
 mkdir -p Assets/Art/Models
@@ -14,9 +14,6 @@ mkdir -p Assets/Art/Textures
 
 mkdir -p Assets/Audio/Music
 mkdir -p Assets/Audio/SFX
-
-
-mkdir -p Assets/Prefabs
 
 mkdir -p Assets/UI/Fonts
 mkdir -p Assets/UI/Sprites
