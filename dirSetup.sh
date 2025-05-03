@@ -15,6 +15,9 @@ mkdir -p Assets/Art/Textures
 mkdir -p Assets/Audio/Music
 mkdir -p Assets/Audio/SFX
 
+
+mkdir -p Assets/Prefabs
+
 mkdir -p Assets/UI/Fonts
 mkdir -p Assets/UI/Sprites
 mkdir -p Assets/UI/Prefabs
