@@ -21,6 +21,12 @@ public class MenuTesting
         Assert.AreNotEqual(0, monMenu.rotationSpeed, "La velocidad de rotación no debería ser 0");
     }
     
+    [Test]
+    public void SalirMenuInGameTesting()
+    {
+        MenuInGame menu = new MenuInGame();
+        Assert.DoesNotThrow(menu.quit, "MenuInGame.Quit exception");
+    }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use
     // `yield return null;` to skip a frame.

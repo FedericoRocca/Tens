@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Console
   m_RootView: {fileID: 11}
   m_MinSize: {x: 875, y: 432}
   m_MaxSize: {x: 10000, y: 10000}
@@ -42,7 +42,7 @@ MonoBehaviour:
     x: 840
     y: 0
     width: 627
-    height: 485
+    height: 473
   m_MinSize: {x: 50, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
@@ -68,13 +68,13 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 456
+    y: 468
     width: 1467
-    height: 485
+    height: 473
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 97
+  controlID: 36
   draggingID: 0
 --- !u!114 &4
 MonoBehaviour:
@@ -126,7 +126,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 149
+  controlID: 133
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -146,7 +146,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 325
-    height: 456
+    height: 468
   m_MinSize: {x: 275, y: 50}
   m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
@@ -174,7 +174,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1467
-    height: 456
+    height: 468
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
@@ -230,7 +230,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 148
+  controlID: 132
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -242,7 +242,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProjectBrowser
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -250,15 +250,15 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 840
-    height: 485
-  m_MinSize: {x: 231, y: 276}
-  m_MaxSize: {x: 10001, y: 10026}
-  m_ActualView: {fileID: 17}
+    height: 473
+  m_MinSize: {x: 101, y: 126}
+  m_MaxSize: {x: 4001, y: 4026}
+  m_ActualView: {fileID: 22}
   m_Panes:
   - {fileID: 17}
   - {fileID: 22}
-  m_Selected: 0
-  m_LastSelected: 1
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -354,7 +354,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 25
+  controlID: 35
   draggingID: 0
 --- !u!114 &15
 MonoBehaviour:
@@ -374,7 +374,7 @@ MonoBehaviour:
     x: 325
     y: 0
     width: 1142
-    height: 456
+    height: 468
   m_MinSize: {x: 202, y: 226}
   m_MaxSize: {x: 4002, y: 4026}
   m_ActualView: {fileID: 20}
@@ -404,10 +404,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Test Runner\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 841
-    y: 24
+    x: 840
+    y: 547
     width: 625
-    height: 459
+    height: 447
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -420,12 +420,12 @@ MonoBehaviour:
     m_ContainerData: []
     m_OverlaysVisible: 1
   m_Spl:
-    ID: 176
+    ID: 160
     splitterInitialOffset: 194
     currentActiveSplitter: -1
     realSizes:
-    - 194
-    - 195
+    - 188
+    - 189
     relativeSizes:
     - 0.5
     - 0.5
@@ -435,7 +435,7 @@ MonoBehaviour:
     maxSizes:
     - 0
     - 0
-    lastTotalSize: 389
+    lastTotalSize: 377
     splitSize: 6
     xOffset: 0
     m_Version: 1
@@ -447,7 +447,7 @@ MonoBehaviour:
   m_TestListGUIs:
   - m_Window: {fileID: 16}
     runProgress:
-      RunGuid: 3a2e8461-2d72-4be3-bf43-30af76e761a6
+      RunGuid: eebbd63f-546e-4899-85c6-efeee4f445d5
       ExecutionSettings:
         m_TargetPlatform: 0
         m_HasTargetPlatform: 0
@@ -460,7 +460,8 @@ MonoBehaviour:
         filters:
         - testMode: 1
           testNames: []
-          groupNames: []
+          groupNames:
+          - .*
           categoryNames: []
           assemblyNames: []
         runSynchronously: 0
@@ -474,7 +475,7 @@ MonoBehaviour:
           disableNestedEnumeratorBugfix: 0
         randomOrderSeed: 0
       HasFinished: 1
-      Progress: 0.9999999
+      Progress: 0.99999994
       CurrentStepName: Unlock Reload Assemblies
       CurrentStageName: 
     m_NewResultList:
@@ -494,7 +495,7 @@ MonoBehaviour:
       categories: []
       parentId: 
       parentUniqueId: 
-    - id: 1005
+    - id: 1009
       uniqueId: '[Tests][C:/Users/Magus/Desktop/Repos/Tens/Clicker/Library/ScriptAssemblies/Tests.dll][suite]'
       name: Tests.dll
       fullName: C:/Users/Magus/Desktop/Repos/Tens/Clicker/Library/ScriptAssemblies/Tests.dll
@@ -511,6 +512,56 @@ MonoBehaviour:
       parentId: 1000
       parentUniqueId: '[Clicker][suite]'
     - id: 1001
+      uniqueId: 'Tests.dll/[Tests][CoinTesting][suite]'
+      name: CoinTesting
+      fullName: CoinTesting
+      resultStatus: 1
+      duration: 0
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 1
+      categories: []
+      parentId: 1009
+      parentUniqueId: '[Tests][C:/Users/Magus/Desktop/Repos/Tens/Clicker/Library/ScriptAssemblies/Tests.dll][suite]'
+    - id: 1002
+      uniqueId: 'Tests.dll/CoinTesting/[Tests][CoinTesting.CoinTestingSimplePasses]'
+      name: CoinTestingSimplePasses
+      fullName: CoinTesting.CoinTestingSimplePasses
+      resultStatus: 1
+      duration: 0.0092421
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'Tests.dll/[Tests][CoinTesting][suite]'
+    - id: 1003
+      uniqueId: 'Tests.dll/CoinTesting/[Tests][CoinTesting.CoinTestingWithEnumeratorPasses]'
+      name: CoinTestingWithEnumeratorPasses
+      fullName: CoinTesting.CoinTestingWithEnumeratorPasses
+      resultStatus: 1
+      duration: 0.0096243
+      messages: 
+      output: 
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'Tests.dll/[Tests][CoinTesting][suite]'
+    - id: 1004
       uniqueId: 'Tests.dll/[Tests][MenuTesting][suite]'
       name: MenuTesting
       fullName: MenuTesting
@@ -524,14 +575,14 @@ MonoBehaviour:
       description: 
       isSuite: 1
       categories: []
-      parentId: 1005
+      parentId: 1009
       parentUniqueId: '[Tests][C:/Users/Magus/Desktop/Repos/Tens/Clicker/Library/ScriptAssemblies/Tests.dll][suite]'
     - id: 1002
       uniqueId: 'Tests.dll/MenuTesting/[Tests][MenuTesting.MenuTestingSimplePasses]'
       name: MenuTestingSimplePasses
       fullName: MenuTesting.MenuTestingSimplePasses
       resultStatus: 1
-      duration: 0.0142685
+      duration: 0.0052881
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -553,7 +604,7 @@ MonoBehaviour:
       name: MenuTestingWithEnumeratorPasses
       fullName: MenuTesting.MenuTestingWithEnumeratorPasses
       resultStatus: 1
-      duration: 0.009201
+      duration: 0.0072277
       messages: 
       output: 
       stacktrace: 
@@ -570,7 +621,7 @@ MonoBehaviour:
       name: MonedaMenuTesting
       fullName: MenuTesting.MonedaMenuTesting
       resultStatus: 1
-      duration: 0.006477
+      duration: 0.0067695
       messages: 
       output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
         This is not allowed.  MonoBehaviours can only be added using AddComponent().
@@ -587,39 +638,34 @@ MonoBehaviour:
       - Uncategorized
       parentId: 1001
       parentUniqueId: 'Tests.dll/[Tests][MenuTesting][suite]'
-    m_ResultText: "goInGame (0,019s)\n---\n  Menu.goinGame exception\r\n  Expected:
-      No Exception to be thrown\r\n  But was:  <System.InvalidOperationException:
-      This can only be used during play mode, please use EditorSceneManager.OpenScene()
-      instead.\r\n  at (wrapper managed-to-native) UnityEngine.SceneManagement.SceneManagerAPIInternal.LoadSceneAsyncNameIndexInternal_Injected(UnityEngine.Bindings.ManagedSpanWrapper&,int,UnityEngine.SceneManagement.LoadSceneParameters&,bool)\r\n 
-      at UnityEngine.SceneManagement.SceneManagerAPIInternal.LoadSceneAsyncNameIndexInternal
-      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-      parameters, System.Boolean mustCompleteNextFrame) [0x0002a] in <84f0d810adef4e6c8deab33e4ae93f7c>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManagerAPI.LoadSceneAsyncByNameOrIndex
-      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-      parameters, System.Boolean mustCompleteNextFrame) [0x00000] in <84f0d810adef4e6c8deab33e4ae93f7c>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadSceneAsyncNameIndexInternal
-      (System.String sceneName, System.Int32 sceneBuildIndex, UnityEngine.SceneManagement.LoadSceneParameters
-      parameters, System.Boolean mustCompleteNextFrame) [0x00016] in <84f0d810adef4e6c8deab33e4ae93f7c>:0
-      \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene (System.String
-      sceneName, UnityEngine.SceneManagement.LoadSceneParameters parameters) [0x00001]
-      in <84f0d810adef4e6c8deab33e4ae93f7c>:0 \r\n  at UnityEngine.SceneManagement.SceneManager.LoadScene
-      (System.String sceneName) [0x00009] in <84f0d810adef4e6c8deab33e4ae93f7c>:0
-      \r\n  at Menu.goinGame () [0x00011] in C:\\Users\\Magus\\Desktop\\Repos\\Tens\\Clicker\\Assets\\Scripts\\UI\\Menu.cs:28
-      \r\n  at NUnit.Framework.Constraints.ThrowsConstraint+VoidInvocationDescriptor.Invoke
-      () [0x00000] in <f577cd9686154d6ab10efd7e65e64366>:0 \r\n  at NUnit.Framework.Constraints.ThrowsConstraint+ExceptionInterceptor.Intercept
-      (System.Object invocation) [0x00041] in <f577cd9686154d6ab10efd7e65e64366>:0
-      >\r\n\n---\nat MenuTesting.goInGame () [0x00005] in <color=#40a0ff><a href=\"C:\\Users\\Magus\\Desktop\\Repos\\Tens\\Clicker\\Assets\\Scripts\\Tests\\MenuTesting.cs\"
-      line=\"28\r\">Assets\\Scripts\\Tests\\MenuTesting.cs:28\r</a></color>\n\n---\nYou
-      are trying to create a MonoBehaviour using the 'new' keyword.  This is not
-      allowed.  MonoBehaviours can only be added using AddComponent(). Alternatively,
-      your script can inherit from ScriptableObject or no base class at all"
-    m_ResultStacktrace: 'at MenuTesting.goInGame () [0x00005] in C:\Users\Magus\Desktop\Repos\Tens\Clicker\Assets\Scripts\Tests\MenuTesting.cs:28
+    - id: 1004
+      uniqueId: 'Tests.dll/MenuTesting/[Tests][MenuTesting.SalirMenuInGameTesting]'
+      name: SalirMenuInGameTesting
+      fullName: MenuTesting.SalirMenuInGameTesting
+      resultStatus: 1
+      duration: 0.0006696
+      messages: 
+      output: 'You are trying to create a MonoBehaviour using the ''new'' keyword. 
+        This is not allowed.  MonoBehaviours can only be added using AddComponent().
+        Alternatively, your script can inherit from ScriptableObject or no base class
+        at all
 
 '
+      stacktrace: 
+      notRunnable: 0
+      ignoredOrSkipped: 0
+      description: 
+      isSuite: 0
+      categories:
+      - Uncategorized
+      parentId: 1001
+      parentUniqueId: 'Tests.dll/[Tests][MenuTesting][suite]'
+    m_ResultText: Clicker (6 tests) (0,000s)
+    m_ResultStacktrace: 
     m_TestListState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 31166f40
-      m_LastClickedID: 1081022001
+      m_SelectedIDs: 4bf43ec7
+      m_LastClickedID: -952175541
       m_ExpandedIDs: 4bf43ec722524b3a2afe314fd38c1e5affffff7f
       m_RenameOverlay:
         m_UserAcceptedRename: 0
@@ -650,7 +696,7 @@ MonoBehaviour:
     m_SelectedOption: 0
   - m_Window: {fileID: 16}
     runProgress:
-      RunGuid: 3a2e8461-2d72-4be3-bf43-30af76e761a6
+      RunGuid: eebbd63f-546e-4899-85c6-efeee4f445d5
       ExecutionSettings:
         m_TargetPlatform: 0
         m_HasTargetPlatform: 0
@@ -663,7 +709,8 @@ MonoBehaviour:
         filters:
         - testMode: 1
           testNames: []
-          groupNames: []
+          groupNames:
+          - .*
           categoryNames: []
           assemblyNames: []
         runSynchronously: 0
@@ -677,7 +724,7 @@ MonoBehaviour:
           disableNestedEnumeratorBugfix: 0
         randomOrderSeed: 0
       HasFinished: 1
-      Progress: 0.9999999
+      Progress: 0.99999994
       CurrentStepName: Unlock Reload Assemblies
       CurrentStageName: 
     m_NewResultList:
@@ -733,7 +780,7 @@ MonoBehaviour:
     m_SelectedOption: 0
   - m_Window: {fileID: 0}
     runProgress:
-      RunGuid: 3a2e8461-2d72-4be3-bf43-30af76e761a6
+      RunGuid: eebbd63f-546e-4899-85c6-efeee4f445d5
       ExecutionSettings:
         m_TargetPlatform: 0
         m_HasTargetPlatform: 0
@@ -746,7 +793,8 @@ MonoBehaviour:
         filters:
         - testMode: 1
           testNames: []
-          groupNames: []
+          groupNames:
+          - .*
           categoryNames: []
           assemblyNames: []
         runSynchronously: 0
@@ -760,7 +808,7 @@ MonoBehaviour:
           disableNestedEnumeratorBugfix: 0
         randomOrderSeed: 0
       HasFinished: 1
-      Progress: 0.9999999
+      Progress: 0.99999994
       CurrentStepName: Unlock Reload Assemblies
       CurrentStageName: 
     m_NewResultList: []
@@ -819,9 +867,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 547
     width: 839
-    height: 459
+    height: 447
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -844,7 +892,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/Player
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -854,16 +902,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/Player
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Magus\Desktop\Repos\Tens\Clicker
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: aaad0000
-    m_LastClickedID: 44458
-    m_ExpandedIDs: 0000000032ad0000acad000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: bead0000
+    m_LastClickedID: 44478
+    m_ExpandedIDs: 000000003aad00003cad00003ead000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -892,7 +940,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000032ad0000
+    m_ExpandedIDs: 000000003aad00003cad00003ead0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -918,8 +966,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs: f2dcffff
+    m_LastClickedInstanceID: -8974
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000036b00000
     m_RenameOverlay:
@@ -972,9 +1020,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 79
     width: 324
-    height: 430
+    height: 442
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -989,7 +1037,7 @@ MonoBehaviour:
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
   m_PreviewResizer:
-    m_CachedPref: 160
+    m_CachedPref: -160
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
@@ -1040,7 +1088,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 7e90ffff4c94ffff54a0ffff02a1ffff6aa2ffffd2a3ffff3aa5ffffa2a6ffff0ca8ffff7ea9ffff3eb8ffffeeb8ffffb4b9ffff54baffffecbaffff9cbeffff4cbfffff14c3ffffe4c6ffff6ec8ffff40d0fffff6d0ffffd4d4ffff68d8ffff38dcffff1ce0ffff98e1fffface9ffff16ebffff7eecffff0af6ffff1efbffff9ab80000
+      m_ExpandedIDs: 9019fffffadcffff3edeffffbcdfffff4cf1fffffcf1ffff1efbfffff4ffffff84ae0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1057,7 +1105,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 8}
+        m_ClientGUIView: {fileID: 15}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1089,7 +1137,7 @@ MonoBehaviour:
     x: 325
     y: 79
     width: 1140
-    height: 430
+    height: 442
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1132,10 +1180,10 @@ MonoBehaviour:
       displayed: 1
       id: unity-scene-view-toolbar
       index: 0
-      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 24, y: 0}
+      snapOffset: {x: 24, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 1
@@ -1146,10 +1194,10 @@ MonoBehaviour:
       displayed: 1
       id: unity-scene-view-camera-mode-toolbar
       index: 1
-      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 24, y: 0}
+      snapOffset: {x: 24, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 1
@@ -1174,10 +1222,10 @@ MonoBehaviour:
       displayed: 1
       id: unity-transform-toolbar
       index: 0
-      contents: '{"m_Layout":2,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":2,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 24, y: 0}
+      snapOffset: {x: 24, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 2
@@ -1454,10 +1502,10 @@ MonoBehaviour:
       displayed: 1
       id: Overlays/OverlayMenu
       index: 1
-      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 24, y: 0}
+      snapOffset: {x: 24, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 1
@@ -1482,10 +1530,10 @@ MonoBehaviour:
       displayed: 1
       id: AINavigationOverlay
       index: 8
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":25.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
-      snapOffset: {x: 24, y: 0}
+      snapOffset: {x: 24, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
@@ -1560,9 +1608,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 226, y: 245.29999, z: 0}
+    m_Target: {x: 0.30608216, y: 1.1357179, z: -7.2932806}
     speed: 2
-    m_Value: {x: 226, y: 245.29999, z: 0}
+    m_Value: {x: 0.30608216, y: 1.1357179, z: -7.2932806}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1608,20 +1656,20 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.05149067, y: 0.4729012, z: 0.027696056, w: 0.8791746}
+    m_Target: {x: -0.5334281, y: -0.16968824, z: 0.11018964, w: -0.8213236}
     speed: 2
-    m_Value: {x: -0.05149062, y: 0.47290075, z: 0.02769603, w: 0.87917376}
+    m_Value: {x: -0.53341377, y: -0.1696837, z: 0.11018668, w: -0.8213015}
   m_Size:
-    m_Target: 81.394104
+    m_Target: 2.188322
     speed: 2
-    m_Value: 81.394104
+    m_Value: 2.188322
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
   m_CameraSettings:
-    m_Speed: 1.4802595
-    m_SpeedNormalized: 0.7399998
+    m_Speed: 1.4202896
+    m_SpeedNormalized: 0.7099998
     m_SpeedMin: 0.001
     m_SpeedMax: 2
     m_EasingEnabled: 1
@@ -1768,9 +1816,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 535
+    y: 547
     width: 839
-    height: 459
+    height: 447
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0

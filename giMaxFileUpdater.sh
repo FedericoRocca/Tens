@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Tamaño mínimo en bytes (100 MB)
-MIN_SIZE=$((100 * 1024 * 1024))
+# Tamaño mínimo en bytes (50 MB)
+MIN_SIZE=$((50 * 1024 * 1024))
 
 echo "Buscando archivos >= 100MB (ignorando .git)..."
 
@@ -23,3 +23,4 @@ find . -type f -size +${MIN_SIZE}c ! -path "./.git/*" | while read -r file; do
 done
 
 echo "Proceso finalizado."
+
