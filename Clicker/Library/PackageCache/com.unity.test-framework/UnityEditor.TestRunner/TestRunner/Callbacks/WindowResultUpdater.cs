@@ -45,7 +45,6 @@ namespace UnityEditor.TestTools.TestRunner.GUI
             }
 
             TestRunnerWindow.s_Instance.m_SelectedTestTypes.UpdateResult(result);
-            TestRunnerWindow.s_Instance.Repaint();
         }
     }
 }

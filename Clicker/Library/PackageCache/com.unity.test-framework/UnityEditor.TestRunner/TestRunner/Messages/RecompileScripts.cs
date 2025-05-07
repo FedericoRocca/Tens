@@ -11,7 +11,6 @@ namespace UnityEngine.TestTools
     {
         /// <summary>
         /// Creates a new instance of the `RecompileScripts` yield instruction.
-        /// </summary>
         /// <example>
         /// <code>
         /// [UnitySetUp]
@@ -26,7 +25,7 @@ namespace UnityEngine.TestTools
         /// }
         /// </code>
         /// </example>
-
+        /// </summary>
         public RecompileScripts() : this(true)
         {
         }

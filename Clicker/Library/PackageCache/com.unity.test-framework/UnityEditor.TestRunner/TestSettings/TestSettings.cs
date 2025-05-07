@@ -25,32 +25,16 @@ namespace UnityEditor.TestTools.TestRunner
 #endif
             new TestSetting<string>(
                 settings => settings.Architecture,
-                () =>
-                {
-                    switch (EditorUserBuildSettings.activeBuildTarget)
-                    {
-                        case BuildTarget.Android:
-                            return PlayerSettings.Android.targetArchitectures.ToString();
-                        case BuildTarget.StandaloneOSX:
-                            return EditorUserBuildSettings.GetPlatformSettings(BuildPipeline.GetBuildTargetName(BuildTarget.StandaloneOSX), "Architecture");
-                        default:
-                            return null;
-                    }
-                },
+                () => EditorUserBuildSettings.activeBuildTarget == BuildTarget.Android ? PlayerSettings.Android.targetArchitectures.ToString() : null,
                 architecture =>
                 {
-                    if (string.IsNullOrEmpty(architecture))
-                        return;
-                    
-                    switch (EditorUserBuildSettings.activeBuildTarget)
+                    if (EditorUserBuildSettings.activeBuildTarget == BuildTarget.Android)
                     {
-                        case BuildTarget.Android:
+                        if (!string.IsNullOrEmpty(architecture))
+                        {
                             var targetArchitectures = (AndroidArchitecture)Enum.Parse(typeof(AndroidArchitecture), architecture, true);
                             PlayerSettings.Android.targetArchitectures = targetArchitectures;
-                            break;
-                        case BuildTarget.StandaloneOSX:
-                            EditorUserBuildSettings.SetPlatformSettings(BuildPipeline.GetBuildTargetName(BuildTarget.StandaloneOSX), "Architecture", architecture.ToLower());
-                            break;
+                        }
                     }
                 }),
 #if UNITY_2021_2_OR_NEWER

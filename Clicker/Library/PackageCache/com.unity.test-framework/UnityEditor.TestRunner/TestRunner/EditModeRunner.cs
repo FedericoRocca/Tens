@@ -185,6 +185,11 @@ namespace UnityEditor.TestTools.TestRunner
                     }
                 }
 
+                if (StepStack.Count > 0 && m_CurrentYieldObject != null)    // not null and not IEnumerator, nested
+                {
+                    Debug.LogError("EditMode test can only yield null, but not <" + m_CurrentYieldObject.GetType().Name + ">");
+                }
+
                 return true;
             }
 
@@ -276,6 +281,7 @@ namespace UnityEditor.TestTools.TestRunner
                 return;
             }
 
+            UnityTestExecutionContext.CurrentContext.CurrentResult.RecordException(new InvalidOperationException("EditMode test can only yield null"));
         }
 
         private void CompilationFailureWatch()

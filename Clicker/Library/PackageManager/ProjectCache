@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638818533141310249
-    m_Hash: 2306650150
+      ticks: 638822253298944652
+    m_Hash: 169290206
   m_LockFileStatus:
     m_FilePath: C:/Users/Magus/Desktop/Repos/Tens/Clicker/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638818533141368839
-    m_Hash: 3368354360
+      ticks: 638822253298993471
+    m_Hash: 1229248123
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
@@ -135,10 +135,10 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 2.0.5
     minimumUnityVersion: 2023.2.0a18
-- packageId: com.unity.collab-proxy@2.8.1
+- packageId: com.unity.collab-proxy@2.8.2
   testable: 0
   isDirectDependency: 1
-  version: 2.8.1
+  version: 2.8.2
   source: 1
   resolvedPath: C:\Users\Magus\Desktop\Repos\Tens\Clicker\Library\PackageCache\com.unity.collab-proxy
   assetPath: Packages/com.unity.collab-proxy
@@ -234,10 +234,12 @@ m_ResolvedPackages:
     - 2.6.0
     - 2.7.1
     - 2.8.1
+    - 2.8.2
     compatible:
     - 2.6.0
     - 2.7.1
     - 2.8.1
+    - 2.8.2
     recommended: 2.6.0
     deprecated: []
   dependencies: []
@@ -270,13 +272,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638816205519760000
+  datePublishedTicks: 638822079721750000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.collab-proxy@2.8/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.cloud.collaborate.git
-    revision: 44648e1daf2b61f9aa6a087bf00b078e5c4182ee
+    revision: c1fbc35e6bbae1ac0e9a3481e441dfdb3602b5ef
     path: 
   unityLifecycle:
     version: 2.6.0
@@ -289,48 +291,12 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"### Added\n\n- Added to the list of branches a context
-    action to hide branches. You can use the filter to list the hidden branches and
-    unhide them from the context menu.\n- Added to the list of branches a context
-    action to diff the branch.\n- Added to the list of changesets a context action
-    to create a new branch from a specific changeset.\n- Added to the check-in and
-    shelve notification a link to go to the list of changesets/shelves. The user
-    can also copy the direct diff link.\n- Added to the merge operation a notification
-    with a link to go to the pending changes.\n- Added to the undo and update workspace
-    operations an ephemeral notification.\n- Added to the status bar an action to
-    copy to the clipboard the name of the current branch.\n- Added to most dialogs
-    an \"Enter\" keyboard shortcut to confirm the operation like the corresponding
-    button.\n- Added to the history of a folder a context action to revert changes.\n-
-    Added to the history a context action to diff changes for files that were moved/renamed.\n-
-    Added to the pending changes view the user avatar if available from Gravatar.\n-
-    Added to the merge view the avatars for authors of changes.\n\n### Fixed\n\n-
-    Fixed the UI that could start refreshing forever, never completing the ongoing
-    operations.\n- Fixed the auto checkout for assets to only apply for file containing
-    actual changes.\n- Fixed project download from the Hub that was silently skipped
-    when trying to download inside another workspace. It''s now logging an explicit
-    error in the console.\n- Fixed a null exception that could occur when switching
-    to the changesets tab very quickly after checkin.\n- Fixed bulk editing meta
-    files that was only performing a single checkout for the last element.\n- Fixed
-    a null exception that could occur on Revert to this revision if the selected
-    change triggered a domain reload.\n- Fixed the scroll that was not at the top
-    when opening the branches or the shelves view.\n- Fixed an error that was showing
-    when deleting a shelveset that wasn''t the one selected in the list.\n- Fixed
-    merge success notification that was showing in the view potentially colliding
-    with contents.\n- Implemented a mechanism to fix the path to UnityYAMLMerge.exe
-    in the client.conf so it always points to an existing Unity installation.\n-
-    Fixed the apply shelve operation so that it checks for dirty changes and warn
-    the user before applying the shelve.\n- Fixed Undo changes of a Moved asset using
-    the Asset Context Menu from the Project View that was leaving an inconsistent
-    .meta file.\n- Added the option to add a folder by path to the ignore or hidden
-    changes list, instead of the incorrect option \"Using the item extension\".\n-
-    Fixed incorrect branch name in the history of a file for a revision where it
-    was moved, displaying details of the move instead of the name of the branch.\n-
-    Fixed the Unity Editor crashing on macOS when opening the Unity Version Control
-    window with the PiXYZ Plugin installed.\n- Fixed a null exception that occured
-    when using the diff search filter without any shelve in the repository."}'
+  upmReserved: '{"changelog":"- Fixed false positive error showing in console if
+    creating a workspace from the Hub with a version of the Unity Editor shipping
+    with a default Version Control package older than version 2.7.1."}'
   assetStore:
     productId: 
-  fingerprint: 946053a44d19ed7bf32864432d78cbd5830e46f3
+  fingerprint: c854d1f7d97fbe1905f3e3591ded6fe77d96e654
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 2.6.0
@@ -514,7 +480,7 @@ m_ResolvedPackages:
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -815,223 +781,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 1.0.0
     minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.probuilder@6.0.5
-  testable: 0
-  isDirectDependency: 1
-  version: 6.0.5
-  source: 1
-  resolvedPath: C:\Users\Magus\Desktop\Repos\Tens\Clicker\Library\PackageCache\com.unity.probuilder
-  assetPath: Packages/com.unity.probuilder
-  name: com.unity.probuilder
-  displayName: ProBuilder
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: 
-  description: 'Build, edit, and texture custom geometry in Unity. Use ProBuilder
-    for in-scene level design, prototyping, collision meshes, all with on-the-fly
-    play-testing.
-
-
-    Advanced features include UV editing, vertex colors, parametric
-    shapes, and texture blending. With ProBuilder''s model export feature it''s easy
-    to tweak your levels in any external 3D modelling suite.'
-  errors: []
-  versions:
-    all:
-    - 3.0.0
-    - 3.0.1
-    - 3.0.2
-    - 3.0.3
-    - 3.0.6
-    - 3.0.8
-    - 3.0.9
-    - 3.10.1
-    - 4.0.2
-    - 4.0.3
-    - 4.0.4
-    - 4.0.5
-    - 4.1.0
-    - 4.1.2
-    - 4.2.1
-    - 4.2.2-preview.1
-    - 4.2.2-preview.2
-    - 4.2.3
-    - 4.2.4-preview.0
-    - 4.3.0-preview.0
-    - 4.3.0-preview.1
-    - 4.3.0-preview.2
-    - 4.3.0-preview.4
-    - 4.3.0-preview.6
-    - 4.3.0-preview.7
-    - 4.3.0-preview.8
-    - 4.3.0-preview.9
-    - 4.3.1
-    - 4.4.0-preview.1
-    - 4.4.0
-    - 4.5.0
-    - 4.5.2
-    - 5.0.0-pre.7
-    - 5.0.0-pre.10
-    - 5.0.1
-    - 5.0.3
-    - 5.0.4
-    - 5.0.6
-    - 5.0.7
-    - 5.1.0
-    - 5.1.1
-    - 5.2.0
-    - 5.2.2
-    - 5.2.3
-    - 5.2.4
-    - 6.0.1-pre.1
-    - 6.0.1-pre.2
-    - 6.0.1
-    - 6.0.2
-    - 6.0.3
-    - 6.0.4
-    - 6.0.5
-    compatible:
-    - 6.0.4
-    - 6.0.5
-    recommended: 6.0.5
-    deprecated: []
-  dependencies:
-  - name: com.unity.shadergraph
-    version: 17.0.3
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.settings-manager
-    version: 1.0.3
-  resolvedDependencies:
-  - name: com.unity.shadergraph
-    version: 17.0.3
-  - name: com.unity.render-pipelines.core
-    version: 17.0.3
-  - name: com.unity.burst
-    version: 1.8.18
-  - name: com.unity.mathematics
-    version: 1.3.2
-  - name: com.unity.modules.jsonserialize
-    version: 1.0.0
-  - name: com.unity.ugui
-    version: 2.0.0
-  - name: com.unity.modules.ui
-    version: 1.0.0
-  - name: com.unity.modules.imgui
-    version: 1.0.0
-  - name: com.unity.collections
-    version: 2.5.1
-  - name: com.unity.test-framework
-    version: 1.4.6
-  - name: com.unity.ext.nunit
-    version: 2.0.5
-  - name: com.unity.nuget.mono-cecil
-    version: 1.11.4
-  - name: com.unity.test-framework.performance
-    version: 3.0.3
-  - name: com.unity.modules.physics
-    version: 1.0.0
-  - name: com.unity.modules.terrain
-    version: 1.0.0
-  - name: com.unity.rendering.light-transport
-    version: 1.0.1
-  - name: com.unity.searcher
-    version: 4.9.2
-  - name: com.unity.settings-manager
-    version: 2.0.1
-  keywords:
-  - 3d
-  - model
-  - mesh
-  - modeling
-  - geometry
-  - shape
-  - cube
-  - blender
-  - max
-  - maya
-  - fbx
-  - obj
-  - level
-  - design
-  - block
-  - greybox
-  - graybox
-  - whitebox
-  - prototype
-  - probuilder
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 638780358106590000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.probuilder@6.0/manual/index.html
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.probuilder.git
-    revision: 3efb5ffce15fb2092437e0cb5a15f3a5de69fb61
-    path: 
-  unityLifecycle:
-    version: 6.0.4
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: '{"changelog":"### Changes\n\n- Improved DrawShape tool performance
-    when you place the first vertex.\n\n### Fixed\n\n- Fixed a bug where undoing
-    a PolyShape creation then redoing it did not restore the PolyShape.\n- Fixed
-    a bug where you could progress to the Edit Height stage of the Polyshape creation
-    tool without forming a base polygon with at least three points.\n- Fixed a bug
-    where shapes created by pressing Enter or Space using the Polyshape creation
-    tool were not selectable or added to the scene hierarchy.\n- [PBLD-213] Fixed
-    a bug where selection changes made while the PolyShape creation tool was active
-    were being reverted.\n- [PBLD-192] Fixed a bug where vertices were not able to
-    snap on other vertices from the same mesh.\n- [PBLD-189] Fixed a bug where using
-    the auto-stitch functionality of the UV Editor would not work properly on MacOS.\n-
-    [PBLD-187] Fixed a bug where the object size was incorrect when using the DrawShape
-    tool on angled surfaces.\n- [PBLD-180] Fixed a bug in the Material Editor where
-    an exception was thrown because it attempted to retrieve `MenuItem` shortcuts
-    before the main menu was fully loaded.\n- [PBLD-210] Fixed a bug where Undo was
-    not working correctly with the Polyshape creation tool. \n- [PBLD-196] Fixed
-    a bug where the Polyshape creation tool was not working with an orthographic
-    camera.\n- [STO-3429] Fixed a bug where increment snapping was ignored when drawing
-    ProBuilder shapes.\n- [STO-3432] Fixed a bug where the Polyshape creation tool
-    was not placing the first point on a custom grids correctly.\n- [PBLD-183] Fixed
-    a bug where the **Extrude by** setting of the **Extrude Faces** action was always
-    set to **Individual Faces**.\n- [STO-3442] Fixed a bug where hover-highlighted
-    elements are not always selected.\n- [PBLD-208] Fixed an issue \"Apply Quick
-    Material\" shortcut would always be present in the Shortcut Helper Bar.\n- [PBLD-202]
-    Fixed an issue where creating ProBuilder shapes using the Hierarchy menu would
-    not result in procedurally editable `ProBuilderShape` meshes. \n- [PBLD-205]
-    Fixed a bug where the `Edit PolyShape` tool would revert previously merged PolyShape
-    objects.\n- [PBLD-199] Fixed a bug where an exception was thrown if you placed
-    two cut tool vertices on the same edge."}'
-  assetStore:
-    productId: 
-  fingerprint: b55f3ad2afd2f5505e0e532971da5bb5a17f128f
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 6.0.4
-    minimumUnityVersion: 6000.0.0a1
 - packageId: com.unity.render-pipelines.universal@17.0.3
   testable: 0
   isDirectDependency: 1
@@ -1129,7 +878,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -1194,10 +943,10 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
     minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.test-framework@1.4.6
+- packageId: com.unity.test-framework@1.4.5
   testable: 0
   isDirectDependency: 1
-  version: 1.4.6
+  version: 1.4.5
   source: 1
   resolvedPath: C:\Users\Magus\Desktop\Repos\Tens\Clicker\Library\PackageCache\com.unity.test-framework
   assetPath: Packages/com.unity.test-framework
@@ -1208,7 +957,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: 
+  type: assets
   description: Test framework for running Edit mode and Play mode tests in Unity.
   errors: []
   versions:
@@ -1305,13 +1054,13 @@ m_ResolvedPackages:
   entitlements:
     licensingModel: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 638743524358990000
+  datePublishedTicks: 638575054880000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.test-framework@1.4/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 9c6028f63a9b875e714b65de151b74e170152d49
+    revision: e50747c90fb18ab9f4f350b60d0fcdcae19bdebc
     path: 
   unityLifecycle:
     version: 1.4.5
@@ -1324,29 +1073,41 @@ m_ResolvedPackages:
   git:
     hash: 
     revision: 
-  upmReserved: '{"changelog":"- Fixed an issue where the architecture flag would
-    not be parsed for the StandaloneOSX platform.\n- Fixed an issue where the test
-    results ui and progress bar would not update before a user input, such as mouse
-    movement, was detected (UTF-609).\n- Fixed an issue where root of the test tree
-    was marked as NotRun, when all the tests were run and at least one test is ignore.\n-
-    Ensure that an error is raised and the test run is stopped if a playmode test
-    method exits playmode (DSTR-1091). \n- Async editmode tests are no longer throw
-    error when yielding a different value than null (DSTR-1066)\n- Fixed an issue
-    where the \"C# Test Script\" button was always disabled in One Column view in
-    Project tab. (DSTR-1083)\n- Async and UnityTest can now use ParametrizedIgnore
-    attribute. (DSTR-1068)\n- Corrected Timeout to only apply to the test method
-    and not the teardown methods, ensuring that TearDown is always run if a test
-    case times out (DSTR-1077).\n- Added a queue size indicator in the player side
-    test result ui. This can be used to track the progress of sending back result
-    data to the editor.\n- Parent node of the test tree is now updated after all
-    children finish running and have a result."}'
+  upmReserved: '{"changelog":"- Fixed an issue where batchmode test runs would never
+    finish if a test yielded WaitForEndOfFrame (DSTR-1009).\n- Fixed an issue where
+    the location prompt was required when using the Install all tests in ''build''
+    folder option during test builds.\n- Canceling a PlayMode test run now correctly
+    restores the scene setup, instead of leaving the editor in the test scene.\n-
+    Fixed an issue where UnitySetUp did not fail when nested coroutines threw an
+    exception (DSTR-1007).\n- When selecting multiple tests and running them, the
+    test runner now correctly updates the details of the first selected test (UTF-602).\n-
+    The interaction mode and application idle time settings is now being changes
+    when running tests, resulting in faster test runs if not already in use (applies
+    to 2020.3 and later) (DSTR-690).\n- Fixed an issue where some NUnit attributes
+    caused errors and stopped async test runs (DSTR-1040).\n- Added support for the
+    MaxTime attribute on async and UnityTest methods (DSTR-1040).\n- Fixed a memory
+    leak issue where a large number of domain reloads within the same test could
+    crash the editor (DSTR-1023).\n- Changed to use a progress bar inside the test
+    runner window when running tests. This ensures that the progress bar is not fighting
+    to display when e.g. compiling scripts and also makes it easier to cancel a run.
+    This progress bar is displayed for all types of runs (EditMode, PlayMode and
+    Player). (UTF-596).\n- Fixed an issue where ignored tests with an attributes
+    did not display the ignore reason in the test runner UI.\n- Having multiple tests
+    with the same unique id no longer gives a error with ''An item with the same
+    key has already been added'', but instead logs an warning about the duplicate
+    id.\n- The result icons for test suites should no longer flicker when running
+    tests.\n- Ensured that test results ignored in the editor but run on a player
+    are not overwritten with ignore status when shown in the UI (DSTR-1042).\n- Fixed
+    an issue where the RunStarted event was not invoked correctly during a test run
+    (DSTR-1046).\n- Fixed an issue where TestStarted and TestFinished events were
+    repeated for ignored test fixtures after a domain reload (DSTR-986)."}'
   assetStore:
     productId: 
-  fingerprint: 5ac417e07314c8f6afba8109738c32b82d391e68
+  fingerprint: 0a21eb82d95cd331643a1e0ce4e8e9a5f18954c8
   editorCompatibility:
     compatibilityLevel: 0
     minimumPackageVersion: 1.4.5
-    minimumUnityVersion: 2019.4.1f1
+    minimumUnityVersion: 2019.4.0a10
 - packageId: com.unity.timeline@1.8.7
   testable: 0
   isDirectDependency: 1
@@ -4405,7 +4166,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -4606,7 +4367,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -4706,7 +4467,7 @@ m_ResolvedPackages:
   - name: com.unity.collections
     version: 2.5.1
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.nuget.mono-cecil
@@ -4759,82 +4520,6 @@ m_ResolvedPackages:
     compatibilityLevel: 0
     minimumPackageVersion: 17.0.3
     minimumUnityVersion: 6000.0.0a1
-- packageId: com.unity.settings-manager@2.0.1
-  testable: 0
-  isDirectDependency: 0
-  version: 2.0.1
-  source: 1
-  resolvedPath: C:\Users\Magus\Desktop\Repos\Tens\Clicker\Library\PackageCache\com.unity.settings-manager
-  assetPath: Packages/com.unity.settings-manager
-  name: com.unity.settings-manager
-  displayName: Settings Manager
-  author:
-    name: 
-    email: 
-    url: 
-  category: 
-  type: asset
-  description: A framework for making any serializable field a setting, complete
-    with a pre-built settings interface.
-  errors: []
-  versions:
-    all:
-    - 0.1.0-preview.4
-    - 0.1.0-preview.8
-    - 1.0.0
-    - 1.0.1
-    - 1.0.2
-    - 1.0.3
-    - 2.0.0
-    - 2.0.1
-    - 2.1.0
-    compatible:
-    - 2.0.1
-    - 2.1.0
-    recommended: 2.0.1
-    deprecated: []
-  dependencies: []
-  resolvedDependencies: []
-  keywords: []
-  registry:
-    id: main
-    name: 
-    url: https://packages.unity.com
-    scopes: []
-    isDefault: 1
-    capabilities: 7
-    configSource: 0
-  hideInEditor: 1
-  entitlements:
-    licensingModel: 1
-  isAssetStorePackage: 0
-  datePublishedTicks: 637744099390000000
-  documentationUrl: 
-  hasRepository: 1
-  repository:
-    type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
-    path: 
-  unityLifecycle:
-    version: 2.0.1
-    nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-  git:
-    hash: 
-    revision: 
-  upmReserved: 
-  assetStore:
-    productId: 
-  fingerprint: 56a930affa1e4462d3595b5c19a1c2a4bf2015d2
-  editorCompatibility:
-    compatibilityLevel: 0
-    minimumPackageVersion: 2.0.1
-    minimumUnityVersion: 2018.4.0a1
 - packageId: com.unity.searcher@4.9.2
   testable: 0
   isDirectDependency: 0
@@ -5354,7 +5039,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -5451,7 +5136,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui
@@ -5671,7 +5356,7 @@ m_ResolvedPackages:
     version: 1.0.0
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.4.6
+    version: 1.4.5
   - name: com.unity.ext.nunit
     version: 2.0.5
   - name: com.unity.modules.imgui

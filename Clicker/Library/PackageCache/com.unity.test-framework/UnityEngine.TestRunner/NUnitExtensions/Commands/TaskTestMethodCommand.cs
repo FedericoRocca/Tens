@@ -36,23 +36,15 @@ namespace UnityEngine.TestTools
 
             if (currentExecutingTestEnumerator != null)
             {
-                var testEnumeratorYieldInstruction = new TestEnumerator(context, currentExecutingTestEnumerator);
+                var testEnumeraterYieldInstruction = new TestEnumerator(context, currentExecutingTestEnumerator);
 
-                yield return testEnumeratorYieldInstruction;
+                yield return testEnumeraterYieldInstruction;
 
-                var enumerator = testEnumeratorYieldInstruction.Execute();
+                var enumerator = testEnumeraterYieldInstruction.Execute();
 
                 var executingEnumerator = ExecuteEnumerableAndRecordExceptions(enumerator, context);
-                bool enumeratorDone = false;
-                while (enumeratorDone == false)
+                while (AdvanceEnumerator(executingEnumerator))
                 {
-                    enumeratorDone = !AdvanceEnumerator(executingEnumerator);
-                    if (((UnityTestExecutionContext) context).HasTimedOut())
-                    {
-                        context.CurrentResult.RecordException(new UnityTestTimeoutException(context.TestCaseTimeout));
-                        yield break;
-                    }
-
                     yield return executingEnumerator.Current;
                 }
             }
@@ -68,9 +60,7 @@ namespace UnityEngine.TestTools
         private bool AdvanceEnumerator(IEnumerator enumerator)
         {
             using (new ProfilerMarker(testMethod.MethodName).Auto())
-            {
                 return enumerator.MoveNext();
-            }
         }
 
         private static IEnumerator ExecuteEnumerableAndRecordExceptions(IEnumerator enumerator, ITestExecutionContext context)

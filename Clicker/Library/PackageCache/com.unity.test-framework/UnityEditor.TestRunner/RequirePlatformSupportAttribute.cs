@@ -25,7 +25,7 @@ namespace UnityEditor.TestTools
         /// <summary>
         /// The build target platform, see [BuildTarget](https://docs.unity3d.com/ScriptReference/BuildTarget.html).
         /// </summary>
-        /// <value>The <see cref="BuildTarget"/> platform to run the test on.</value>
+        /// <returns>The <see cref="BuildTarget"/> platform to run the test on.</returns>
         public BuildTarget[] platforms { get; private set; }
 
         /// <summary>

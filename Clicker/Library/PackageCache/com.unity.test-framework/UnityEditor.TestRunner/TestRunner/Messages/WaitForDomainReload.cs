@@ -12,7 +12,6 @@ namespace UnityEngine.TestTools
     {
         /// <summary>
         /// Create a new instance of the `WaitForDomainReload` yield instruction.
-        /// </summary>
         /// <example>
         /// <code>
         /// [UnitySetUp]
@@ -24,6 +23,7 @@ namespace UnityEngine.TestTools
         /// }
         /// </code>
         /// </example>
+        /// </summary>
         public WaitForDomainReload()
         {
             ExpectDomainReload = true;

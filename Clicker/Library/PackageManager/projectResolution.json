@@ -16,12 +16,12 @@
       "version": "2.0.5",
       "source": "registry"
     },
-    "com.unity.collab-proxy@2.8.1": {
+    "com.unity.collab-proxy@2.8.2": {
       "name": "com.unity.collab-proxy",
       "resolvedPath": "C:\\Users\\Magus\\Desktop\\Repos\\Tens\\Clicker\\Library\\PackageCache\\com.unity.collab-proxy",
-      "fingerprint": "946053a44d19ed7bf32864432d78cbd5830e46f3",
+      "fingerprint": "c854d1f7d97fbe1905f3e3591ded6fe77d96e654",
       "editorCompatibility": "2021.3.0f1",
-      "version": "2.8.1",
+      "version": "2.8.2",
       "source": "registry"
     },
     "com.unity.ide.rider@3.0.31": {
@@ -56,14 +56,6 @@
       "version": "1.0.0",
       "source": "builtin"
     },
-    "com.unity.probuilder@6.0.5": {
-      "name": "com.unity.probuilder",
-      "resolvedPath": "C:\\Users\\Magus\\Desktop\\Repos\\Tens\\Clicker\\Library\\PackageCache\\com.unity.probuilder",
-      "fingerprint": "b55f3ad2afd2f5505e0e532971da5bb5a17f128f",
-      "editorCompatibility": "6000.0.0a1",
-      "version": "6.0.5",
-      "source": "registry"
-    },
     "com.unity.render-pipelines.universal@17.0.3": {
       "name": "com.unity.render-pipelines.universal",
       "resolvedPath": "C:\\Users\\Magus\\Desktop\\Repos\\Tens\\Clicker\\Library\\PackageCache\\com.unity.render-pipelines.universal",
@@ -72,12 +64,12 @@
       "version": "17.0.3",
       "source": "builtin"
     },
-    "com.unity.test-framework@1.4.6": {
+    "com.unity.test-framework@1.4.5": {
       "name": "com.unity.test-framework",
       "resolvedPath": "C:\\Users\\Magus\\Desktop\\Repos\\Tens\\Clicker\\Library\\PackageCache\\com.unity.test-framework",
-      "fingerprint": "5ac417e07314c8f6afba8109738c32b82d391e68",
-      "editorCompatibility": "2019.4.1f1",
-      "version": "1.4.6",
+      "fingerprint": "0a21eb82d95cd331643a1e0ce4e8e9a5f18954c8",
+      "editorCompatibility": "2019.4.0a10",
+      "version": "1.4.5",
       "source": "registry"
     },
     "com.unity.timeline@1.8.7": {
@@ -339,14 +331,6 @@
       "editorCompatibility": "6000.0.0a1",
       "version": "17.0.3",
       "source": "builtin"
-    },
-    "com.unity.settings-manager@2.0.1": {
-      "name": "com.unity.settings-manager",
-      "resolvedPath": "C:\\Users\\Magus\\Desktop\\Repos\\Tens\\Clicker\\Library\\PackageCache\\com.unity.settings-manager",
-      "fingerprint": "56a930affa1e4462d3595b5c19a1c2a4bf2015d2",
-      "editorCompatibility": "2018.4.0a1",
-      "version": "2.0.1",
-      "source": "registry"
     },
     "com.unity.searcher@4.9.2": {
       "name": "com.unity.searcher",

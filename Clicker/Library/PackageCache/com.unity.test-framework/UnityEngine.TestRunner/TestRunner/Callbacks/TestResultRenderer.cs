@@ -34,11 +34,9 @@ namespace UnityEngine.TestTools.TestRunner.Callbacks
 
         private bool m_ShowResults;
         private Vector2 m_ScrollPosition;
-        private RemoteTestResultSender m_RemoteTestResultSender;
 
-        public TestResultRenderer(ITestResult testResults, RemoteTestResultSender remoteTestResultSender)
+        public TestResultRenderer(ITestResult testResults)
         {
-            m_RemoteTestResultSender = remoteTestResultSender;
             m_FailedTestCollection = new List<ITestResult>();
             GetFailedTests(testResults);
         }
@@ -93,16 +91,6 @@ namespace UnityEngine.TestTools.TestRunner.Callbacks
                 GUILayout.TextArea(text, Styles.FailedMessagesStyle);
                 GUILayout.EndScrollView();
             }
-
-            if (m_RemoteTestResultSender)
-            {
-                GUILayout.Label($"Sending test results to the editor. Queue size: {m_RemoteTestResultSender.QueueSize}");
-            }
-            else
-            {
-                GUILayout.Label("No RemoteTestResultSender found on game object.");
-            }
-            
             if (GUILayout.Button("Close"))
                 Application.Quit();
         }

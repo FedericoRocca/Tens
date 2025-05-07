@@ -42,7 +42,7 @@ namespace UnityEngine.TestTools.Utils
         /// <param name="actual">The actual Vector2 to test</param>
         /// <returns>True if the vectors are equals, false otherwise.</returns>
         /// <example>
-        /// <para>The following example shows how to verify if two Vector2 are equals</para>
+        /// The following example shows how to verify if two Vector2 are equals
         ///<code>
         ///[TestFixture]
         /// public class Vector2Test

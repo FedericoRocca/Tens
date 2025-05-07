@@ -20,7 +20,7 @@ namespace UnityEngine.TestTools
         /// <summary>
         /// Initializes and returns an instance of MonoBehaviourTest.
         /// </summary>
-        /// <param name="dontDestroyOnLoad">A boolean indicating whether underlying GameObject is set to DontDestroyOnLoad.</param>
+        /// <param name="dontDestroyOnLoad"></param>
         /// <example>
         /// <code>
         /// [UnityTest]
