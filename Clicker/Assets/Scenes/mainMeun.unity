@@ -1400,6 +1400,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1073855663980269076, guid: 4417b1e457ee1c849a76500f6c8c08cb, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2377715441201148133, guid: 4417b1e457ee1c849a76500f6c8c08cb, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1407,6 +1411,10 @@ PrefabInstance:
     - target: {fileID: 2476937380033658172, guid: 4417b1e457ee1c849a76500f6c8c08cb, type: 3}
       propertyPath: m_Name
       value: Moneda
+      objectReference: {fileID: 0}
+    - target: {fileID: 2489442908952013856, guid: 4417b1e457ee1c849a76500f6c8c08cb, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5685147053502973867, guid: 4417b1e457ee1c849a76500f6c8c08cb, type: 3}
       propertyPath: m_Mesh
