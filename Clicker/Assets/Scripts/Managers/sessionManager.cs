@@ -1,18 +1,11 @@
 using System;
-using TMPro;
 using UnityEngine;
 
-public class scoreManager : MonoBehaviour
+public class sessionManager : MonoBehaviour
 {
-    public static scoreManager instance;
+    public static sessionManager instance;
 
-    private int score = 0;
-
-    public TextMeshProUGUI scoreText;
-    
-    
-    // Disponibilizamos la instancia para que sea accesible desde cualquier Script
-    private void Awake()
+    void Start()
     {
         try
         {
@@ -24,6 +17,7 @@ public class scoreManager : MonoBehaviour
             {
                 Destroy(gameObject);
             }
+            loadData();
         }
         catch (Exception e)
         {
@@ -32,12 +26,24 @@ public class scoreManager : MonoBehaviour
         }
     }
 
-    public void SumarPuntos()
+    public void saveData()
     {
         try
         {
-            score++;
-            scoreText.text = "Puntos: " + score.ToString();
+            PlayerPrefs.SetInt("puntaje", scoreManager.instance.getPuntos());
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e);
+            throw;
+        }
+    }
+
+    public void loadData()
+    {
+        try
+        {
+            scoreManager.instance.setPuntos(PlayerPrefs.GetInt("puntaje"));
         }
         catch (Exception e)
         {
